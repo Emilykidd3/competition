@@ -11,3 +11,19 @@ h1 {
     display: flex;
     align-items: center;
 }
+
+#add-comp-div{
+    background-color: aquamarine;
+}
+
+#div-2 {
+    background-color: bisque;
+}
+
+#div-3 {
+    background-color: rgb(87, 87, 190);
+}
+
+#tracker-div{
+    background-color: blueviolet;
+}
