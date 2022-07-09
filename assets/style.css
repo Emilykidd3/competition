@@ -7,23 +7,37 @@ h1 {
     letter-spacing: 2px;
 }
 
-.center {
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center-vertically {
     display: flex;
     align-items: center;
 }
 
+.center-horizontally {
+    display: flex;
+    justify-content: center;
+}
+
 #add-comp-div{
     background-color: aquamarine;
+    width: 50%;
 }
 
 #div-2 {
     background-color: bisque;
+    width: 50%;
 }
 
 #div-3 {
     background-color: rgb(87, 87, 190);
+    width: 50%;
 }
 
 #tracker-div{
     background-color: blueviolet;
+    width: 50%;
 }
