@@ -1,4 +1,4 @@
-const router = require('exoress').Router();
+const router = require('express').Router();
 const fs = require('fs');
 const db = require('../db/db.json');
 const { v4: uuidv4 } = require('uuid');
