@@ -8,7 +8,7 @@ addCompButton.addEventListener('click', function(e){
      console.log("clicked!")
      var inputVal = document.querySelector('#add-comp-input').value
      inputVal.value = ""
-     compArr.push(inputVal)
+     compArr.push(" " +inputVal)
      console.log(compArr)
      addToList();
     })
